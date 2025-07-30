@@ -1,0 +1,86 @@
+body{
+    background-image: url(public/wallpaper.jpg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+h1{
+display: block;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.376);
+    color: white;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+input[type="text"]{
+    width: 50%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 25px;
+    margin: 5px 0 22px 0;
+    margin-left: 25%;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+    
+
+}
+.add {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 25%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    margin-left: 25%;
+}
+li{
+    padding: 8px 8px 8px 25px;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.376);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+}
+li:hover{
+    background-color: #555;
+    color: white;
+}
+
+.del{
+    background-color: #f44336;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px;
+    margin-left: 2.5%;
+    align-items: left;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+}
